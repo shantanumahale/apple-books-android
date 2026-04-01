@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+gradle.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Signing
+*.jks
+*.keystore
+release/
+
+# Generated
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
